@@ -5,7 +5,7 @@ Demo application using:
 ## Backend:
 - NodeJS
 - Serverless Framework
-- AWS (DynamoDB, Cognito, SES)
+- AWS (DynamoDB, Lambda, ApiGateway, Cognito, SES)
 
 
 ## Frontend:
