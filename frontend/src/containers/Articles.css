@@ -1,0 +1,27 @@
+.inventory-header {
+	margin: 0;
+	padding: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.article-table {
+	margin: 0 auto;
+}
+
+.article-table button {
+	color: black;
+	border-color: black;
+	margin-left: 10px;
+	background-color: aqua;
+}
+
+.row-actions {
+	display: flex;
+	gap: 2rem;
+}
+
+.row-actions button {
+	background: none;
+	border: none;
+}

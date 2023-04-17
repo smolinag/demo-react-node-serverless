@@ -1,0 +1,9 @@
+.row-actions {
+	display: flex;
+	gap: 2rem;
+}
+
+.row-actions button {
+	background: none;
+	border: none;
+}
