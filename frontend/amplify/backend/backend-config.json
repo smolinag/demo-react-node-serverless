@@ -1,6 +1,6 @@
 {
   "auth": {
-    "revstardemod9438f99": {
+    "apprevstare59a616f": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -32,7 +32,7 @@
       "dependsOn": [
         {
           "category": "auth",
-          "resourceName": "revstardemod9438f99",
+          "resourceName": "apprevstare59a616f",
           "attributes": [
             "UserPoolId",
             "AppClientIDWeb",
@@ -43,5 +43,11 @@
       ]
     }
   },
-  "hosting": {}
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
+    }
+  }
 }
